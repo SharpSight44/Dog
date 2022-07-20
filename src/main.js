@@ -20,7 +20,7 @@ OUR GOAL WILL ALWAYS BE TO PROVIDE QUALITY, HEALTHY, OUTSTANDING TEMPERAMENT, & 
        </div>
        <div style={{display:"inline-block", width:"500px", marginLeft:"10%", paddingTop:"2%"}}>
       <h2 style={{fontSize:"40px"}}> ABOUT
-THE BREEDER</h2><p>My Name Is Jasmine And Along With My Partner, Alexa And Our Family Own And Operate Dandy Doodle Ranch. Dandy Doodle Ranch Began The Day We Brought Home Our Very Own Dandy Doodle Mama Kiara At 8 Weeks Old. She Is The Dog Everyone Dreams Of Having A Part In Their Family. With Her Amazing, Loving, Temperament From Her Golden Retriever Side To Her Smart Wittyness From Her Poodle Side, She Is The Complete Package And The Main Reason We Fell In Love With The Goldendoodle Breed. </p>
+THE BREEDER</h2><p>Hi, I'm Ellie Nunez I'm the breeder behind Mount Doodles Fam located in Fruitland Park, FL. Our dogs are bred to have top qualities that all families want in their puppies, such as compassion, patience, and love! We raise our litters in our home to help set the foundation for happy and confident puppies to transition well into their forever homes. It’s a privilege to have the opportunity to make an impact on each individual puppy!</p>
 
        </div>
        </div>
