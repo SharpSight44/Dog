@@ -37,7 +37,7 @@ return (
          </ul>
         </li>
         <li className="nav-item">
-         <Link to="/socials"><a className="nav-link" >Social Media</a></Link> 
+         <Link to="/socials"><a className="nav-link" >Social Media Page</a></Link> 
         </li>
         <li className="nav-item">
          <Link to="/contact"> <a className="nav-link">Contact Us</a></Link>
