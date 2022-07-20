@@ -15,7 +15,7 @@ return (
 <div style={{background:"rgba(195, 232, 232, .5)",height:"85vh", paddingBottom:"2%"}}>
 <div style={{width:"600px"}}>
 <h1 style={{fontSize:"40px"}}>
-    The Goolden Doodle 
+    The Goolden Doodle Breed
 </h1>
 <p>
 The Goldendoodle is a cross between a Golden Retriever and a Poodle. At their best, they are intelligent, friendly, and super affectionate. They come in three sizes: miniature (weighing 15 to 30 pounds), medium (30 to 45 pounds), and standard (45 to more than 100 pounds).
