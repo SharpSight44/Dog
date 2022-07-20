@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import { AboutBreeder } from "./aboutBreeder";
 import { AboutDog } from "./aboutDog";
 import injectContext from "./appContext";
@@ -27,7 +27,6 @@ return(
     
     
         <Route exact path="/" element={<Main/>}/>
-
         <Route exact path="/socials" element={<Socials/>}/>
         <Route exact path="/goldendoodle" element={<AboutDog/>}/>
         <Route exact path="/purchase" element={<Puppies/>}/>

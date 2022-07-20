@@ -1,6 +1,5 @@
 import React from "react";
 import Paw from "./pawss.png";
-import Doodle from "./doodle.png";
 import { Link } from "react-router-dom";
 
 

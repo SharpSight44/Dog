@@ -1,5 +1,5 @@
 import React from "react";
-import Litter from "./litter.jpg";
+
 
 
 
