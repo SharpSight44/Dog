@@ -9,7 +9,7 @@ export const Navbar = () => {
 return (
     <nav className="navbar navbar-expand-lg bg-light ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"> <img style={{width:"40px"}} src={Paw} /> <b style={{fontSize:"32px", fontFamily:"Arima, cursive", marginLeft:"15px"}}>Mount Doodles Fam </b></a>
+    <a className="navbar-brand"> <img style={{width:"40px"}} src={Paw} /> <b style={{fontSize:"32px", fontFamily:"Arima, cursive", marginLeft:"15px"}}>Mount Doodles Fam </b></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -23,7 +23,7 @@ return (
             About
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><Link to="/breeder"><a className="dropdown-item" href="#">Breeder</a> </Link></li>
+            <li><Link to="/breeder"><a className="dropdown-item">Breeder</a> </Link></li>
             <li><Link to="/goldendoodle"><a className="dropdown-item" >Goldendoodles</a> </Link></li>
           </ul>
         </li>
@@ -32,15 +32,15 @@ return (
             Puppies
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <li> <Link to="/purchase"><a className="nav-link" href="#">Purchase</a></Link></li>
-         <li> <Link to="/litters"><a className="nav-link" href="#">Litters</a></Link></li>
+         <li> <Link to="/purchase"><a className="nav-link">Purchase</a></Link></li>
+         <li> <Link to="/litters"><a className="nav-link">Litters</a></Link></li>
          </ul>
         </li>
         <li className="nav-item">
          <Link to="/socials"><a className="nav-link" >Social Media</a></Link> 
         </li>
         <li className="nav-item">
-         <Link to="/contact"> <a className="nav-link" href="#">Contact Us</a></Link>
+         <Link to="/contact"> <a className="nav-link">Contact Us</a></Link>
         </li>
        <li className="nav-item"> <a className="nav-link" href="https://www.facebook.com/mountdoodlesfam" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4267B2" className="bi bi-facebook" viewBox="0 0 16 16">
   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>

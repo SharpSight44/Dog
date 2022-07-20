@@ -9,7 +9,7 @@ export const Main = () => {
     <div style={{background:"rgba(195, 232, 232, .5)", paddingBottom:"2%"}}>
        <h2 style={{fontWeight:"bolder", textAlign:"center", fontSize:"50px", paddingTop:"2%"}}> Loving, Healthy <br/> Well Trained Puppies</h2>
         
-       <div style={{ display:"flex", justifyContent:"center"}}> <img style={{width:"650px", height:"400px", objectFit:"cover", border:"2px solid rgb(50, 64, 64)", borderRadius:"5%"}}src={Litter}></img></div>
+       <div style={{ display:"flex", justifyContent:"center"}}> <img style={{width:"650px", height:"400px", objectFit:"cover", border:"2px solid rgb(50, 64, 64)", borderRadius:"5%"}}src={Litter} alt="Litter"></img></div>
        
 <div style={{display:"flex"}}>
        <div style={{width:"400px", fontSize:"20px", fontWeight:"bold", textAlign:"left", marginLeft:"3%"}}>
@@ -25,7 +25,7 @@ THE BREEDER</h2><p>My Name Is Jasmine And Along With My Partner, Alexa And Our F
        </div>
        </div>
        <div style={{display:"flex", justifyContent:"center"}}>
-       <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida#breed_id=124" target="_blank"> <img style={{width:"100px"}} src="https://www.gooddog.com/assets/packs/media/src/assets/breeder_badge-a941acd55ce40c92d77a49e4568cc9f2.svg" /> </a>
+       <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida#breed_id=124" target="_blank" rel="noreferrer"> <img style={{width:"100px"}} atl="dog"src="https://www.gooddog.com/assets/packs/media/src/assets/breeder_badge-a941acd55ce40c92d77a49e4568cc9f2.svg" /> </a>
        </div>
        </div>
        
