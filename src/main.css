@@ -7,3 +7,31 @@ h1 {
 h2{
     font-family: 'Arima', cursive;  
 }
+
+
+.welcome {
+    display: flex;
+}
+
+#topDiv {
+    display: flex;
+}
+#hero {
+    width:650px;
+     height:400px;
+}
+
+@media (max-width: 500px){
+    #topDiv {
+        display: block;
+
+    }
+    .welcome {
+        display: block;
+    }
+    
+    #hero{
+        width: 325px;
+        height: 200px;
+    }
+}
