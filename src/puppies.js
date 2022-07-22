@@ -1,4 +1,5 @@
 import React from "react";
+import './aboutBreeder.css';
 
 
 
@@ -16,8 +17,8 @@ Be First FOR ONE OF OUR CURRENT OR UPCOMING LITTERS BELOW:
 <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida?adopter_app_open=true#breed_id=124" target="_blank"> <img style={{width:"150px"}} src="https://www.webb.edu/wp-content/uploads/2017/04/sign-up-button-png-18.png"/></a>
 
 </div>
-<div style={{display:"flex", justifyContent:"center"}}>
-<p style={{width:"500px", display:"block"}}>
+<div id="puppies" style={{ justifyContent:"center"}}>
+<p id="reachOut"style={{ display:"block"}}>
     <h1>Reach Out Directly</h1>
 Also you can  simply reach out to us via Instagram, Email, or Call/Text (786)774-3836 for more information on a specific puppy or litter. 
 
