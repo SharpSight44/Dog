@@ -13,6 +13,11 @@
     width:500px;
 }
 
+.socials{
+    display: flex;
+     justify-content: center;
+}
+
 @media (max-width: 675px) {
     #content {
         width: auto;
@@ -30,6 +35,12 @@
     }
     #reachOut {
         width: auto;
+    }
+    .socials {
+        display: block;
+    }
+    #face {
+        width: 350px;
     }
 
 }
