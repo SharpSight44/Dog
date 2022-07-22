@@ -1,4 +1,5 @@
 import React from "react";
+import './aboutBreeder.css';
 
 
 
@@ -13,7 +14,7 @@ export const AboutDog = () =>{
 return (
     <div style={{backgroundImage:`url("https://breezyhollowpuppies.com/wp-content/uploads/2020/07/shutterstock_1723968841-scaled-e1621267391253-1024x756.jpg")`, backgroundRepeat:"no-repeat",  backgroundPositionX:"right"}}>
 <div style={{background:"rgba(195, 232, 232, .5)",height:"85vh", paddingBottom:"2%"}}>
-<div style={{width:"600px"}}>
+<div id="aboutDog">
 <h1 style={{fontSize:"40px"}}>
     The Goolden Doodle Breed
 </h1>
