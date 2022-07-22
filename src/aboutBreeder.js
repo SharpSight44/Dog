@@ -1,5 +1,5 @@
 import React from "react";
-
+import './aboutBreeder.css';
 
 
 
@@ -7,9 +7,9 @@ export const AboutBreeder = ()=>{
 
 return(
     <div style={{backgroundImage:`url("https://thumbs.dreamstime.com/b/mini-golden-doodle-puppy-white-background-looking-to-camera-pet-apricot-color-180695460.jpg")`, backgroundPositionX:"right", backgroundRepeat:"no-repeat"}}>
-<div style={{background:"rgba(195, 232, 232, .5)", height:"85vh", paddingBottom:"2%"}}>
+<div  style={{background:"rgba(195, 232, 232, .5)", height:"85vh", paddingBottom:"2%"}}>
 <h1> About Me</h1>
-<div style={{width:"500px", marginLeft:"10%",display:"flex", justifyContent:"center"}}>
+<div id="content" style={{display:"flex", justifyContent:"center"}}>
 
 <p> Hi, I'm Ellie Nunez
 
