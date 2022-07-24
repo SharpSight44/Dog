@@ -3,13 +3,14 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import { TikTokEmbed } from 'react-social-media-embed';
 import { FacebookEmbed } from 'react-social-media-embed';
 import './main.css';
+import Pink from './pinkSky.jpg';
 
 export const Socials = () => {
 
 
 
 return (
-    <div style={{background:"#F6DCEF", paddingBottom:"4%"}}>
+    <div style={{backgroundImage:`url(${Pink})`, paddingBottom:"4%"}}>
   
 
 <h1  > Instagram</h1>
