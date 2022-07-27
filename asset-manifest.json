@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.66ab38b3.css",
-    "main.js": "/static/js/main.0d0566d0.js",
+    "main.css": "/static/css/main.1d466052.css",
+    "main.js": "/static/js/main.c45c0659.js",
     "static/media/litter.jpg": "/static/media/litter.801c97a90b7264221ea1.jpg",
     "static/media/sillie4.jpg": "/static/media/sillie4.e9645316f23321160cd6.jpg",
     "static/media/buddy1.jpg": "/static/media/buddy1.81b983b27dc8fc7c61ec.jpg",
@@ -31,13 +31,14 @@
     "static/media/millie1.jpg": "/static/media/millie1.b5c983ae93d42c6cddc7.jpg",
     "static/media/pinkSky.jpg": "/static/media/pinkSky.fe66f748f5253eb302db.jpg",
     "static/media/millie2.jpg": "/static/media/millie2.5edf5c6aa05985fd7a66.jpg",
+    "static/media/Mount.png": "/static/media/Mount.fda985e4f116bf0c1b11.png",
     "static/media/pawss.png": "/static/media/pawss.30b85578f6de37f87990.png",
     "index.html": "/index.html",
-    "main.66ab38b3.css.map": "/static/css/main.66ab38b3.css.map",
-    "main.0d0566d0.js.map": "/static/js/main.0d0566d0.js.map"
+    "main.1d466052.css.map": "/static/css/main.1d466052.css.map",
+    "main.c45c0659.js.map": "/static/js/main.c45c0659.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ab38b3.css",
-    "static/js/main.0d0566d0.js"
+    "static/css/main.1d466052.css",
+    "static/js/main.c45c0659.js"
   ]
 }
