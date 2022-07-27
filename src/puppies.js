@@ -6,7 +6,7 @@ import './aboutBreeder.css';
 export const Puppies = ()=>{
 
 return(
-<div style={{background:"rgba(195, 232, 232, .5)", paddingBottom:"2%"}}>
+<div style={{background:"rgba(125, 206, 19, .5)", paddingBottom:"2%"}}>
 
 <h1>Interested in a beautiful Golden Doodle Pup?</h1>
 <div style={{display:"flex", justifyContent:"center"}}>

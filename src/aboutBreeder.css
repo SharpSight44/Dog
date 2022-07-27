@@ -1,6 +1,16 @@
+#topFam{
+    background: rgba(125, 206, 19, .4);
+    padding: 10px;
+}
 #content {
     width:500px;
     margin-left:10%;
+}
+
+#abDogImage {
+    background-image:url("https://breezyhollowpuppies.com/wp-content/uploads/2020/07/shutterstock_1723968841-scaled-e1621267391253-1024x756.jpg");
+         background-repeat:no-repeat;  
+         background-position-x:right;
 }
 
 #aboutDog {
@@ -41,6 +51,10 @@
     }
     #face {
         width: 350px;
+    }
+    #abDogImage {
+        background-position-x:left;
+
     }
 
 }
