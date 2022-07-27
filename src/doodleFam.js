@@ -27,6 +27,7 @@ import buddy1 from './pictures/buddy1.jpg';
 import buddy3 from './pictures/buddy3.jpg';
 import buddy4 from './pictures/buddy4.jpg';
 import buddy5 from './pictures/buddy5.jpg';
+import logo from './pictures/Mount.png';
 
 const buddy = [ buddy4, buddy5, buddy1, buddy3];
 const shimmie = [shim1,shim2,shim3,shim4
@@ -58,7 +59,10 @@ const [selectBud, setSelectBud] = useState(buddy[0]);
 return (
 <>
 <div id="topFam">
+<div style={{display:"flex", justifyContent:"center"}}><img src={logo} /></div>
+<div id="fam">
     <div className="Dogs shimmie">
+       
         <div style={{position:"relative"}}><img  className="bigImg" src={selectShm} /><div style={{position:"absolute", left:" 18px", top:"60px", transform:'rotate(-35deg)', zIndex:"2", color:"whitesmoke", fontSize:"50px", fontWeight:"800", WebkitTextStroke:"2px black"}}>Shimmie</div></div>
         <div className="scroll">{shimmie.map((x,i)=> <div key={i} style={{border:"5px solid white", margin:"7px",height:"fit-content"}} onClick={()=>setSelectShm(x)}><img style={{width:"150px"}} src={x} /></div> )}</div>
 
@@ -90,7 +94,7 @@ return (
 
     </div>
 </div>
-
+</div>
 </>
 );
 }

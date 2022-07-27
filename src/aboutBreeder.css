@@ -1,9 +1,14 @@
+
+
 #topFam{
     background: rgba(125, 206, 19, .4);
     padding: 22px;
+}
+#fam{
     display: flex;
     flex-wrap: wrap;
 }
+
 .Dogs {
     margin-top: 10px;
     margin-left: 20px ;
@@ -72,7 +77,7 @@
         background-position-x:left;
 
     }
-    #topFam {
+    #Fam {
         display: block;
         flex-wrap: initial;
     }
@@ -83,4 +88,12 @@
         width:350px;
     }
 
+}
+@media (max-width: 675px){
+    .bigImg{
+        width:300px;
+    }
+    .scroll {
+        width:300px;
+    }
 }
