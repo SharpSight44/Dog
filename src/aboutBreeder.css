@@ -1,6 +1,22 @@
 #topFam{
     background: rgba(125, 206, 19, .4);
-    padding: 10px;
+    padding: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Dogs {
+    margin-top: 10px;
+    margin-left: 20px ;
+
+}
+.bigImg{
+    width:400px; 
+    border:10px solid white;
+}
+.scroll{
+    display:flex;
+     width:400px;
+      overflow-x:scroll;
 }
 #content {
     width:500px;
@@ -55,6 +71,16 @@
     #abDogImage {
         background-position-x:left;
 
+    }
+    #topFam {
+        display: block;
+        flex-wrap: initial;
+    }
+    .bigImg {
+        width:350px;
+    }
+    .scroll {
+        width:350px;
     }
 
 }
