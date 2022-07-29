@@ -1,8 +1,12 @@
 .puppsImg{
     width: 350px;
+    display: block;
 }
 .pupps{
     margin: 25px;
+    display: block;
+
+    
 }
 #pupHouse{
     display: flex;
@@ -80,6 +84,7 @@
     }
     #reachOut {
         width: auto;
+        margin-left: 10px;
     }
     .socials {
         display: block;

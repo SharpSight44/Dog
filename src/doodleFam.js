@@ -104,7 +104,7 @@ return (
 
     </div>
     <div className="Dogs frankie">
-    <div style={{position:"relative"}}><img  className="bigImg" src={selectFrank} /><div style={{position:"absolute", left:" 18px", top:"60px", transform:'rotate(-35deg)', zIndex:"2", color:"whitesmoke", fontSize:"50px", fontWeight:"800", WebkitTextStroke:"2px black"}}>Frankie</div></div>
+    <div style={{position:"relative"}}><img  className="bigImg" src={selectFrank} /><div style={{position:"absolute", right:" 28px", bottom:"54px", transform:'rotate(-35deg)', zIndex:"2", color:"whitesmoke", fontSize:"50px", fontWeight:"800", WebkitTextStroke:"2px black"}}>Frankie</div></div>
         <div className="scroll">{frankie.map((x,i)=> <div key={i} style={{border:"5px solid white", margin:"7px", height:"fit-content"}} onClick={()=>setSelectFrank(x)}><img style={{width:"150px"}} src={x} /></div> )}</div>
 
     </div>

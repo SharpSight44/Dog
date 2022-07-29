@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import './aboutBreeder.css';
 import pupp1 from './pictures/pupp1.jpg';
 import pupp2 from './pictures/pupp2.jpg';
@@ -15,7 +16,7 @@ export default function Litter() {
         <>
         <div id="topLit">
 <h1 style={{fontWeight:"600"}}> Available Pups!</h1>
-<div id="pupHouse">{pupps.map((item, index)=> <div className="pupps" key={index}><img className="puppsImg"  src={item}/></div>)}</div>
+<div id="pupHouse">{pupps.map((item, index)=> <div className="pupps" key={index}><img className="puppsImg"  src={item}/> <Link to={"/purchase"}><button style={{marginLeft:"35%", marginTop:"10%", background:"rgb(14, 198, 240)", color:"white", fontWeight:"600", padding:"6px", borderRadius:"10px", fontSize:"18px"}}>Reserve Pup</button></Link></div>)}</div>
 
 
         </div>
