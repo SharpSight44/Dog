@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d466052.css",
-    "main.js": "/static/js/main.129b4b99.js",
+    "main.css": "/static/css/main.8a33521c.css",
+    "main.js": "/static/js/main.6e739716.js",
     "static/media/litter.jpg": "/static/media/litter.801c97a90b7264221ea1.jpg",
     "static/media/sillie4.jpg": "/static/media/sillie4.e9645316f23321160cd6.jpg",
     "static/media/buddy1.jpg": "/static/media/buddy1.81b983b27dc8fc7c61ec.jpg",
@@ -11,13 +11,17 @@
     "static/media/sillie3.jpg": "/static/media/sillie3.2b6c920eba71a2c912c3.jpg",
     "static/media/shim3.jpg": "/static/media/shim3.f3050d9c473b3e5ef6b7.jpg",
     "static/media/merlie4.jpg": "/static/media/merlie4.d63045b79c9e50a04cab.jpg",
+    "static/media/pupp3.jpg": "/static/media/pupp3.4761f558981f25f2feeb.jpg",
     "static/media/merlie3.jpg": "/static/media/merlie3.a15ee6841fd3d466e35e.jpg",
     "static/media/shim4.jpg": "/static/media/shim4.8679d3f45c1b0f6c7655.jpg",
     "static/media/billie1.jpg": "/static/media/billie1.374bfd62de725add4660.jpg",
     "static/media/buddy4.jpg": "/static/media/buddy4.09cb618cea9c64fc4646.jpg",
     "static/media/buddy3.jpg": "/static/media/buddy3.7820cd4ad63c1f2e5343.jpg",
+    "static/media/pupp4.jpg": "/static/media/pupp4.ab89db46651f3629c088.jpg",
     "static/media/merlie7.jpg": "/static/media/merlie7.756c593c49e13a23c11f.jpg",
+    "static/media/pupp1.jpg": "/static/media/pupp1.62baf0a0e1cea116676b.jpg",
     "static/media/merlie6.jpg": "/static/media/merlie6.42f900fc7f93b4de753b.jpg",
+    "static/media/pupp2.jpg": "/static/media/pupp2.12abba1c8cf7eb077886.jpg",
     "static/media/merlie1.jpg": "/static/media/merlie1.796d6e6abceadbb1f543.jpg",
     "static/media/sillie2.jpg": "/static/media/sillie2.b4d5f09585c96c859b0c.jpg",
     "static/media/shim1.jpg": "/static/media/shim1.d779eb853129684d6319.jpg",
@@ -42,11 +46,11 @@
     "static/media/Mount.png": "/static/media/Mount.fda985e4f116bf0c1b11.png",
     "static/media/pawss.png": "/static/media/pawss.30b85578f6de37f87990.png",
     "index.html": "/index.html",
-    "main.1d466052.css.map": "/static/css/main.1d466052.css.map",
-    "main.129b4b99.js.map": "/static/js/main.129b4b99.js.map"
+    "main.8a33521c.css.map": "/static/css/main.8a33521c.css.map",
+    "main.6e739716.js.map": "/static/js/main.6e739716.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d466052.css",
-    "static/js/main.129b4b99.js"
+    "static/css/main.8a33521c.css",
+    "static/js/main.6e739716.js"
   ]
 }
