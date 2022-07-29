@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 import { AboutBreeder } from "./aboutBreeder";
 import { AboutDog } from "./aboutDog";
 import injectContext from "./appContext";
@@ -22,7 +22,7 @@ const Layout =() => {
 return(
 <div>
 
-<BrowserRouter basename={basename}>
+<HashRouter>
 <ScrollToTop>
     <Navbar/>
     <Routes>
@@ -49,7 +49,7 @@ return(
         </Routes>
         <Footer/>
 </ScrollToTop>
-</BrowserRouter>
+</HashRouter>
 
 </div>
 );
