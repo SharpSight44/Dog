@@ -6,6 +6,7 @@ import injectContext from "./appContext";
 import { ContactUs } from "./contactUs";
 import DoodleFam from "./doodleFam";
 import { Footer } from "./footer";
+import Litter from "./litter";
 import { Main } from "./main";
 import { Navbar } from "./navbar";
 import { Puppies } from "./puppies";
@@ -34,6 +35,8 @@ return(
         <Route exact path="/breeder" element={<AboutBreeder/>}/>
         <Route exact path="/contact" element={<ContactUs/>}/>
         <Route exact path="/doodlefam" element={<DoodleFam/>}/>
+        <Route exact path="/litters" element={<Litter/>}/>
+
 
 
             

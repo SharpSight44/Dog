@@ -1,4 +1,18 @@
-
+.puppsImg{
+    width: 350px;
+}
+.pupps{
+    margin: 25px;
+}
+#pupHouse{
+    display: flex;
+    flex-wrap: wrap;
+}
+#topLit{
+    background: rgba(125, 206, 19, .4);
+    padding: 22px;
+    height: auto;
+}
 
 #topFam{
     background: rgba(125, 206, 19, .4);
@@ -87,13 +101,24 @@
     .scroll {
         width:350px;
     }
+    .pupHouse{
+        display: block;
+    }
 
 }
-@media (max-width: 675px){
+@media (max-width: 420px){
     .bigImg{
         width:300px;
     }
     .scroll {
         width:300px;
+    }
+    .puppsImg{
+        width: 300px;
+    }
+}
+@media (min-width: 1643px){
+    #topLit{
+        height: 85vh;
     }
 }
