@@ -27,8 +27,17 @@ import buddy1 from './pictures/buddy1.jpg';
 import buddy3 from './pictures/buddy3.jpg';
 import buddy4 from './pictures/buddy4.jpg';
 import buddy5 from './pictures/buddy5.jpg';
+import frankie1 from './pictures/frankie1.jpg';
+import frankie2 from './pictures/frankie2.jpg';
+import frankie3 from './pictures/frankie3.jpg';
+import frankie4 from './pictures/frankie4.jpg';
+import frankie5 from './pictures/frankie5.jpg';
+import frankie7 from './pictures/frankie7.jpg';
+import frankie8 from './pictures/frankie8.jpg';
+import frankie9 from './pictures/frankie9.jpg';
 import logo from './pictures/Mount.png';
 
+const frankie = [frankie1, frankie2, frankie3, frankie4, frankie5, frankie7, frankie8, frankie9];
 const buddy = [ buddy4, buddy5, buddy1, buddy3];
 const shimmie = [shim1,shim2,shim3,shim4
 
@@ -52,6 +61,7 @@ const [selectSill, setSelectSill] = useState(sillie[0]);
 const [selectBill, setSelectBill] = useState(billie[0]);
 const [selectMill, setSelectMill] = useState(millie[0]);
 const [selectBud, setSelectBud] = useState(buddy[0]);
+const [selectFrank, setSelectFrank] = useState(frankie[0]);
 
 
 
@@ -91,6 +101,11 @@ return (
     <div className="Dogs buddy">
     <div style={{position:"relative"}}><img  className="bigImg" src={selectBud} /><div style={{position:"absolute", left:" 18px", top:"60px", transform:'rotate(-35deg)', zIndex:"2", color:"whitesmoke", fontSize:"50px", fontWeight:"800", WebkitTextStroke:"2px black"}}>Buddy</div></div>
         <div className="scroll">{buddy.map((x,i)=> <div key={i} style={{border:"5px solid white", margin:"7px", height:"fit-content"}} onClick={()=>setSelectBud(x)}><img style={{width:"150px"}} src={x} /></div> )}</div>
+
+    </div>
+    <div className="Dogs frankie">
+    <div style={{position:"relative"}}><img  className="bigImg" src={selectFrank} /><div style={{position:"absolute", left:" 18px", top:"60px", transform:'rotate(-35deg)', zIndex:"2", color:"whitesmoke", fontSize:"50px", fontWeight:"800", WebkitTextStroke:"2px black"}}>Frankie</div></div>
+        <div className="scroll">{frankie.map((x,i)=> <div key={i} style={{border:"5px solid white", margin:"7px", height:"fit-content"}} onClick={()=>setSelectFrank(x)}><img style={{width:"150px"}} src={x} /></div> )}</div>
 
     </div>
 </div>
