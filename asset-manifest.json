@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fa931c2.css",
-    "main.js": "/static/js/main.c6b36764.js",
+    "main.css": "/static/css/main.bb42ef0d.css",
+    "main.js": "/static/js/main.6fe24a4c.js",
     "static/media/litter.jpg": "/static/media/litter.801c97a90b7264221ea1.jpg",
     "static/media/sillie4.jpg": "/static/media/sillie4.e9645316f23321160cd6.jpg",
     "static/media/buddy1.jpg": "/static/media/buddy1.81b983b27dc8fc7c61ec.jpg",
@@ -42,16 +42,17 @@
     "static/media/millie2.jpg": "/static/media/millie2.5edf5c6aa05985fd7a66.jpg",
     "static/media/frankie7.jpg": "/static/media/frankie7.ce29540806aec70ce619.jpg",
     "static/media/frankie1.jpg": "/static/media/frankie1.851498b9c91bfa17e651.jpg",
+    "static/media/HomeRun.png": "/static/media/HomeRun.634a753d8439a340eb03.png",
     "static/media/frankie2.jpg": "/static/media/frankie2.8891a2c07c98d6b5db00.jpg",
     "static/media/logoPups.png": "/static/media/logoPups.8725d9e52e09f4c9bbf2.png",
     "static/media/Mount.png": "/static/media/Mount.fda985e4f116bf0c1b11.png",
     "static/media/pawss.png": "/static/media/pawss.30b85578f6de37f87990.png",
     "index.html": "/index.html",
-    "main.1fa931c2.css.map": "/static/css/main.1fa931c2.css.map",
-    "main.c6b36764.js.map": "/static/js/main.c6b36764.js.map"
+    "main.bb42ef0d.css.map": "/static/css/main.bb42ef0d.css.map",
+    "main.6fe24a4c.js.map": "/static/js/main.6fe24a4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fa931c2.css",
-    "static/js/main.c6b36764.js"
+    "static/css/main.bb42ef0d.css",
+    "static/js/main.6fe24a4c.js"
   ]
 }
