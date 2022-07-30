@@ -1,5 +1,6 @@
 import React from "react";
 import Litter from "./litter.jpg"
+import Good from "./pictures/HomeRun.png";
 import './main.css';
 
 
@@ -26,7 +27,7 @@ THE BREEDER</h2><p style={{fontWeight:"500"}}>Hi, I'm Ellie Nunez I'm the breede
        </div>
        </div>
        <div style={{display:"flex", justifyContent:"center"}}>
-       <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida#breed_id=124" target="_blank" rel="noreferrer"> <img style={{width:"100px"}} atl="dog"src="https://www.gooddog.com/assets/packs/media/src/assets/breeder_badge-a941acd55ce40c92d77a49e4568cc9f2.svg" /> </a>
+       <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida#breed_id=124" target="_blank" rel="noreferrer"> <img style={{width:"150px"}} atl="dog"src={Good} /> </a>
        </div>
        </div>
        

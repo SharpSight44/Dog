@@ -6,6 +6,7 @@ import pupp2 from './pictures/pupp2.jpg';
 import pupp3 from './pictures/pupp3.jpg';
 import pupp4 from './pictures/pupp4.jpg';
 import logoPups from './pictures/logoPups.png';
+import Good from "./pictures/HomeRun.png";
 const pupps = [pupp1,pupp2,pupp3,pupp4];
 export default function Litter() {
 
@@ -16,7 +17,9 @@ export default function Litter() {
         <>
         <div id="topLit">
 <div className="logoPup"><img src={logoPups}/></div>
-<div id="pupHouse">{pupps.map((item, index)=> <div className="pupps" key={index}><img className="puppsImg"  src={item}/> <Link to={"/purchase"}><button style={{marginLeft:"35%", marginTop:"10%", background:"rgb(14, 198, 240)", color:"white", fontWeight:"600", padding:"6px", borderRadius:"10px", fontSize:"18px"}}>Reserve Pup</button></Link></div>)}</div>
+<div id="pupHouse">{pupps.map((item, index)=> <div className="pupps" key={index}><img className="puppsImg"  src={item}/> <div style={{marginLeft:"35%", marginTop:"10%"}}> <div className="select">Select</div>      <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida#breed_id=124" target="_blank" rel="noreferrer"> <img style={{width:"150px"}} atl="dog"src={Good} /> </a>
+</div></div>)}</div>
+
 
 
         </div>

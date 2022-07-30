@@ -10,8 +10,8 @@ return(
 
 <h1>Interested in a beautiful Golden Doodle Pup?</h1>
 <div style={{display:"flex", justifyContent:"center"}}>
-<p>
-Be First FOR ONE OF OUR CURRENT OR UPCOMING LITTERS BELOW:
+<p style={{fontSize:"22px"}}>
+Be the first for one of our current or upcoming litters
 
 </p>
 <a href="https://www.gooddog.com/breeders/mount-doodles-fam-florida?adopter_app_open=true#breed_id=124" target="_blank"> <img style={{width:"150px"}} src="https://www.webb.edu/wp-content/uploads/2017/04/sign-up-button-png-18.png"/></a>
