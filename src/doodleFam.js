@@ -37,7 +37,7 @@ import frankie8 from './pictures/frankie8.jpg';
 import frankie9 from './pictures/frankie9.jpg';
 import logo from './pictures/Mount.png';
 
-const frankie = [frankie1, frankie2, frankie3, frankie4, frankie5, frankie7, frankie8, frankie9];
+const frankie = [frankie4,frankie2, frankie3,  frankie5, frankie7, frankie8, frankie9];
 const buddy = [ buddy4, buddy5, buddy1, buddy3];
 const shimmie = [shim1,shim2,shim3,shim4
 

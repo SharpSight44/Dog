@@ -1,4 +1,6 @@
-
+.aboutHim{
+    height:85vh;
+}
 .puppsImg{
     width: 350px;
     display: block;
@@ -116,6 +118,7 @@
     .logoPup{
         margin-left:21%;
     }
+    
 
 }
 @media (max-width: 420px){
@@ -127,6 +130,9 @@
     }
     .puppsImg{
         width: 300px;
+    }
+    .aboutHim{
+        height:auto;
     }
 }
 @media (min-width: 1643px){

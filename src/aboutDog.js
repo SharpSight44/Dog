@@ -13,7 +13,7 @@ export const AboutDog = () =>{
 
 return (
     <div id="abDogImage">
-<div style={{background:"rgba(125, 206, 19, .3)",height:"85vh", paddingBottom:"2%"}}>
+<div className="aboutHim" style={{background:"rgba(125, 206, 19, .3)", paddingBottom:"2%"}}>
 <div id="aboutDog">
 <h1 style={{fontSize:"40px"}}>
     The Goolden Doodle Breed
