@@ -33,7 +33,7 @@ return (
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
          <li> <Link to="/purchase"><a className="nav-link">Purchase</a></Link></li>
-         <li> <Link to="/litters"><a className="nav-link">Puppies</a></Link></li>
+         <li> <Link to="/litters"><a className="nav-link">Active Litters</a></Link></li>
          <li> <Link to="/doodlefam"><a className="nav-link">Mount Doodles Fam</a></Link></li>
          </ul>
         </li>

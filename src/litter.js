@@ -2,26 +2,37 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './aboutBreeder.css';
 import buddy4 from './pictures/buddy4.jpg';
-import logoPups from './pictures/logoPups.png';
+import logoPups from './pictures/ActiveLitt.png';
 import Good from "./pictures/HomeRun.png";
 import millie2 from './pictures/millie2.jpg';
-
+import billie3 from './pictures/billie3.jpg';
 
 
 
 export default function Litter() {
 
+const run1 = () => {
+    window.open("https://www.gooddog.com/breeders/mount-doodles-fam-florida#litter_id=61326", "_blank");
 
+};
 
+const run2 = () => {
+    window.open("https://www.gooddog.com/breeders/mount-doodles-fam-florida#litter_id=62918", "_blank");
+
+};
     return(
 
         <>
         <div id="topLit">
-<div className="logoPup"><img src={logoPups}/></div>
-<div id="pupHouse"> </div>
-<div style={{width:"500px", height:"350px", background:"white", borderRadius:"10px", border:" 2px solid #f5f5f5"}}> <img style={{marginTop:"4%",marginLeft:"12%",borderRadius:"50%", width:"200px", height:"200px", objectFit:"cover"}} src={buddy4}/><img style={{marginTop:"4%",borderRadius:"50%", width:"200px", height:"200px", objectFit:"cover", marginLeft:"-40px"}} src={millie2}/>
-<div style={{fontSize:"42px", fontWeight:"500", marginLeft:"20%"}}>Buddy x Millie </div><div style={{fontSize:"32px", fontWeight:"400", marginLeft:"23%"}}>Born March 28th</div></div>
-
+<div className="logoPup">Active Litters</div>
+<div id="pupHouse"> 
+<div onClick={()=> run1()} style={{marginBottom:"3%", marginRight:"10%"}}><div className="cardClick"> <img className="picss" src={buddy4}/><img className="picsss" src={millie2}/>
+<div className="dogss">Buddy x Millie </div><div className="desc">Born March 28th</div></div>
+</div>
+<div onClick={()=> run2()} ><div className="cardClick"> <img className="picss" src={buddy4}/><img  className="picsss" src={billie3}/>
+<div className="dogss">Buddy x Billie </div><div className="desc">Born May 9th</div></div>
+</div>
+</div>
 
 
         </div>
