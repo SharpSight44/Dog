@@ -21,8 +21,9 @@ Mount Doodles Fam <br/></b>
 OUR GOAL WILL ALWAYS BE TO PROVIDE QUALITY, HEALTHY, OUTSTANDING TEMPERAMENT, & TRAINED PUPPIES TO THE AMAZING FAMILIES OF OUR FUTURE LITTERS.
        </div>
        <div style={{ width:"auto", marginLeft:"10%", paddingTop:"2%"}}>
-      <h2 style={{fontSize:"40px"}}> ABOUT
-THE BREEDER</h2><p style={{fontWeight:"500"}}>Hi, I'm Ellie Nunez I'm the breeder behind Mount Doodles Fam located in Fruitland Park, FL. Our dogs are bred to have top qualities that all families want in their puppies, such as compassion, patience, and love! We raise our litters in our home to help set the foundation for happy and confident puppies to transition well into their forever homes. It’s a privilege to have the opportunity to make an impact on each individual puppy!</p>
+      <h2 style={{fontSize:"40px"}}> ABOUT US</h2><p style={{fontWeight:"500"}}>Welcome to Mountdoodlesfam Goldendoodles!
+Mountdoodlesfam Goldendoodles is a premium home breeder of Goldendoodle Puppies - located in Sunny Central Florida. We have a wide variety of Goldendoodles types and coats. We love what we do and have lots of experience to share. We are committed to the research, development and improvement of the Goldendoodle dog breed. We specialize and strive to produce healthy companions, therapy and service dogs with wonderful temperaments. We breed well-adjusted, properly-socialized, sweet, loving Goldendoodle puppies with low to non-shedding, allergy-friendly coats. We specialize in Goldendoodles , F1B, F1BB generations. We breed Goldendoodles in medium and large standard sizes. Our doodles grow up right in our living room right beside us crate free. We love them
+So much and we are sure you will love them too!</p>
 
        </div>
        </div>
