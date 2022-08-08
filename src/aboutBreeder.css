@@ -1,3 +1,7 @@
+.menuPaw{
+    margin-left: 30px;
+    visibility: hidden;
+}
 .elpup{
     width:400px;
     margin-left: 15%;
@@ -134,6 +138,13 @@ h6 {
      justify-content: center;
 }
 
+@media (max-width: 991px){
+    .menuPaw{
+        margin-left: 30px;
+        visibility: visible;
+        
+    }
+}
 @media (min-width: 1275px){
     #topLit{
         height: 82vh;
