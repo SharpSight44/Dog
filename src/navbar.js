@@ -20,7 +20,7 @@ return (
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About             <span className="menuPaw" style={{marginLeft:"35px"}}><img style={{width:"20px"}} src={Paw}/></span>
+            About             <span className="menuPaw" style={{marginLeft:"35px"}}><img style={{width:"20px"}} src={Paw}/></span><span className="menuPaw"><img style={{width:"20px"}} src={Paw}/></span>
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><Link to="/breeder"><a className="dropdown-item">Breeder</a> </Link></li>
